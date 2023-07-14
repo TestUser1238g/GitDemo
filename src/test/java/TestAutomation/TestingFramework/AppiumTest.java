@@ -7,6 +7,7 @@ public class AppiumTest {
 	@Test
 	public void getMethodclass() {
 		System.out.println("Appium Test");
+		System.out.println("Appium Test1 is updated");
 	}
 	
 	@Test(groups= {"Regression"})
