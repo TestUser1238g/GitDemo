@@ -13,6 +13,7 @@ public class AppiumTest {
 	@Test(groups= {"Regression"})
 	public void getMethodRegression() {
 		System.out.println("Appium Regression Test");
+		System.out.println("Appium Regression is updated");
 	}
 	
 	@Test(groups= {"Smoke"})
