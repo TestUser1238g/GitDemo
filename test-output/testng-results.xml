@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-13T16:47:22Z" name="Default suite" finished-at="2023-07-13T16:47:22Z" duration-ms="26">
+    <groups>
+      <group name="smokeTest">
+        <method signature="MobileTest.getMethodRegression()[pri:-1, instance:TestAutomation.TestingFramework.MobileTest@6f53b8a]" name="getMethodRegression" class="TestAutomation.TestingFramework.MobileTest"/>
+        <method signature="MobileTest.getMethodSmoke()[pri:0, instance:TestAutomation.TestingFramework.MobileTest@6f53b8a]" name="getMethodSmoke" class="TestAutomation.TestingFramework.MobileTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test started-at="2023-07-13T16:47:22Z" name="Default test" finished-at="2023-07-13T16:47:22Z" duration-ms="26">
+      <class name="TestAutomation.TestingFramework.MobileTest">
+        <test-method signature="getMethodRegression()[pri:-1, instance:TestAutomation.TestingFramework.MobileTest@6f53b8a]" started-at="2023-07-13T16:47:22Z" name="getMethodRegression" finished-at="2023-07-13T16:47:22Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodRegression -->
+        <test-method signature="getMethodSmoke()[pri:0, instance:TestAutomation.TestingFramework.MobileTest@6f53b8a]" started-at="2023-07-13T16:47:22Z" name="getMethodSmoke" finished-at="2023-07-13T16:47:22Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodSmoke -->
+        <test-method signature="getMethodvalue()[pri:0, instance:TestAutomation.TestingFramework.MobileTest@6f53b8a]" started-at="2023-07-13T16:47:22Z" name="getMethodvalue" finished-at="2023-07-13T16:47:22Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodvalue -->
+      </class> <!-- TestAutomation.TestingFramework.MobileTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
