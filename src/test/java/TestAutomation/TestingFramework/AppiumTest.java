@@ -11,6 +11,12 @@ public class AppiumTest {
 	}
 	
 	@Test(groups= {"Regression"})
+	public void getMethodReg() {
+		System.out.println("Appium Reg Test");
+		System.out.println("Appium Reg is updated");
+	}
+	
+	@Test(groups= {"Regression"})
 	public void getMethodRegression() {
 		System.out.println("Appium Regression Test");
 		System.out.println("Appium Regression is updated");
