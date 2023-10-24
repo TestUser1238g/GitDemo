@@ -6,6 +6,7 @@ public class AppiumTest {
 	
 	@Test
 	public void getMethodclass() {
+		System.out.println("Appium Test Automation Changes");
 		System.out.println("Appium Test");
 	}
 	
