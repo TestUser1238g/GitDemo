@@ -8,6 +8,7 @@ public class AppiumTest {
 	public void getMethodclass() {
 		System.out.println("Appium Test Automation Changes");
 		System.out.println("Appium Test");
+		System.out.println("Appium Test scripting added");
 	}
 	
 	@Test(groups= {"Regression"})
