@@ -6,26 +6,20 @@ public class AppiumTest {
 	
 	@Test
 	public void getMethodclass() {
+		System.out.println("Appium Test Automation Changes");
 		System.out.println("Appium Test");
-		System.out.println("Appium Test1 is updated");
-	}
-	
-	@Test(groups= {"Regression"})
-	public void getMethodReg() {
-		System.out.println("Appium Reg Test");
-		System.out.println("Appium Reg is updated");
 	}
 	
 	@Test(groups= {"Regression"})
 	public void getMethodRegression() {
 		System.out.println("Appium Regression Test");
-		System.out.println("Appium Regression is updated");
 	}
 	
 	@Test(groups= {"Smoke"})
 	public void getMethodSmoke() {
 		System.out.println("Appium Smoke Test");
 	}
+
 
 
 }
